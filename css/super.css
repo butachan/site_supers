@@ -1,0 +1,65 @@
+header h1
+{
+	font-family: 'COMIC';
+	font-size: x-large;
+}
+
+#mediatype
+{
+	display: flex;	/*afficher en ligne autoriser propriété flexbox*/
+	justify-content: flex-end;  /*positionne à la fin du bloc*/
+}
+
+
+.lien
+{
+	margin: auto 1em;/* espacer les élements*/
+	font-family: 'Comic Sans MS' , Georgia , 'Courier New' ;
+}
+
+aside, footer
+{
+	border : 2px inset ; /* taille et type */
+	border-radius: 10px;	/*angle de la bordure*/
+	vertical-align: bottom;		
+	display: inline-block;		
+	padding: 10px;
+	box-shadow: 0 0 0 5px red,
+				0 0 0 10px blue;
+}
+
+aside
+{
+	width: 300px;
+	
+	float:right;
+}
+
+@font-face { 
+	font-family: 'spiderman';
+	src: url('fonts/The Amazing Spider-Man.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}      /*ne prend pas en charge les accents*/
+
+@font-face { 
+	font-family: 'COMIC';
+	src: url('fonts/KOMIKAX_.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	background-color: rgba(255, 0, 0, 0.2);
+	background-size: 100%;
+	background-position: center;
+
+}
+
+.futile
+{
+	background-color: rgba(56, 64, 136,0.7 );
+}
+
+
