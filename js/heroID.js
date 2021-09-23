@@ -21,14 +21,14 @@ const spidey = {
 
 console.log(spidey["age"]);
 
-/* fonction standarde */
+/* fonction standarde presentation*/
 function Introduce(hero) {
     var expression = "i am " + hero.real_name + " cast in " + hero.movies[0] + " movie";
    //changer le contenu de la balise
     document.querySelector('.heroTitle').innerHTML = hero.full_name;
    // 
    const civilID = document.getElementById("realName");
-   civilID.innerHTML = hero.real_name;
+   civilID.innerHTML += hero.real_name;
     //rajoute une balise
     for (i =0 ; i<hero.movies.length; i++)
     {
@@ -55,3 +55,5 @@ console.log(newPower(5));
 (a) => {
     spidey.age * a ;
 }
+
+/*principaux medias du heros*/
